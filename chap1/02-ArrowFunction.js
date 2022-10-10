@@ -26,3 +26,8 @@ console.log(full_name('Nattawut','Khuntamli'))
 
 setAge=(age)=>`อายุ ${age}`
 console.log(setAge(14))
+
+const setAg =(age)=>{
+    return age
+}
+console.log(`dd`+setAg(10))
