@@ -12,9 +12,7 @@
  */
 
 /**
- * 
  * example1
- *  
  *********** */
 // การเขียนแบบเดิม
 // var x = 10
@@ -31,8 +29,6 @@
 //     console.log(y)
 // }
 // console.log(y)
-
-
 // const x = 50 
 // x=100 // error ไม่สามารถเปลี่ยนค่าได้
 // console.log(x)
