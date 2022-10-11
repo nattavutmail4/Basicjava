@@ -1,16 +1,8 @@
-import './item.css'
-const ItemComponent = ()=>{
-    const name = "พักโรงแรม"
-    const price = 500
-    return(
-        <>
-            <li className='item'>{name} - {price}</li>
-            <li className='item'>{name} - {price}</li>
-            <li className='item'>{name} - {price}</li>
-            <li className='item'>{name} - {price}</li>
-            <li className='item'>{name} - {price}</li>
-            <li className='item'>{name} - {price}</li>
-        </>
-    )
+const ItemComponent =(props)=>{
+  return(
+      <>
+         <li >{props.name} <span>{props.amount}</span></li>
+      </>
+  )
 }
 export default ItemComponent
