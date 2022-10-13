@@ -9,10 +9,7 @@
    import PropTypes from 'prop-types';   //เป็น libray ใชสำหรับกรองข้อมูล อารมประมาณ validation https://www.npmjs.com/package/prop-types
 
 const ItemComponent =(props)=>{
-  ItemComponent.prototype={
-    title:PropTypes.string.isRequired,
-    amount:PropTypes.number.isRequired
-  }
+
 const {title,amount} = props
   return(
       <>
@@ -20,6 +17,9 @@ const {title,amount} = props
       </>
   )
 }
-
+ItemComponent.prototype={
+  title:PropTypes.string.isRequired,
+  amount:PropTypes.number.isRequired
+}
 
 export default ItemComponent
